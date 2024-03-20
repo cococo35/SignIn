@@ -10,21 +10,24 @@
         android:id="@+id/register_image"
         android:layout_width="93dp"
         android:layout_height="58dp"
-        android:layout_marginTop="40dp"
         android:src="@drawable/register"
+        app:layout_constraintBottom_toTopOf="@+id/reg_text_name"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <TextView
         android:id="@+id/reg_text_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:text="이름"
-        android:textStyle="bold"
         android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/reg_name_read"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_image" />
 
@@ -34,8 +37,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="아이디"
-        android:textStyle="bold"
         android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/reg_password_read"
         app:layout_constraintStart_toStartOf="@+id/reg_name_read"
         app:layout_constraintTop_toBottomOf="@+id/reg_name_read" />
 
@@ -45,48 +49,54 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="비밀번호"
-        android:textStyle="bold"
         android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/reg_id_read"
         app:layout_constraintStart_toStartOf="@+id/reg_password_read"
         app:layout_constraintTop_toBottomOf="@+id/reg_password_read" />
 
     <Button
         android:id="@+id/register_button_finish"
-        android:layout_width="122dp"
+        android:layout_width="230dp"
         android:layout_height="51dp"
         android:layout_marginTop="20dp"
         android:text="회원가입"
         android:textSize="18dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reg_id_read" />
 
     <EditText
         android:id="@+id/reg_name_read"
-        android:layout_width="234dp"
-        android:layout_height="45dp"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:hint="이름을 입력하세요."
+        app:layout_constraintBottom_toTopOf="@+id/reg_id_text"
         app:layout_constraintStart_toStartOf="@+id/reg_text_name"
         app:layout_constraintTop_toBottomOf="@+id/reg_text_name" />
 
     <EditText
         android:id="@+id/reg_id_read"
-        android:layout_width="234dp"
+        android:layout_width="230dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
-        android:inputType="textPassword"
         android:hint="비밀번호를 입력하세요."
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/register_button_finish"
         app:layout_constraintStart_toStartOf="@+id/reg_password_text"
         app:layout_constraintTop_toBottomOf="@+id/reg_password_text" />
 
     <EditText
         android:id="@+id/reg_password_read"
-        android:layout_width="234dp"
+        android:layout_width="230dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:hint="아이디를 입력하세요."
+        app:layout_constraintBottom_toTopOf="@+id/reg_password_text"
         app:layout_constraintStart_toStartOf="@+id/reg_id_text"
         app:layout_constraintTop_toBottomOf="@+id/reg_id_text" />
 
