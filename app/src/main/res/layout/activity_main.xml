@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/signinimage"
-        android:layout_width="243dp"
-        android:layout_height="178dp"
+        android:layout_width="163dp"
+        android:layout_height="75dp"
         android:layout_marginTop="40dp"
         android:src="@drawable/image"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,8 +37,8 @@
 
     <Button
         android:id="@+id/signinbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="104dp"
+        android:layout_height="49dp"
         android:layout_marginTop="40dp"
         android:text="로그인"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,8 +51,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="회원가입"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/signinbutton"
+        app:layout_constraintStart_toStartOf="@+id/signinbutton"
         app:layout_constraintTop_toBottomOf="@+id/signinbutton" />
 
     <EditText
