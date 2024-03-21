@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFE6E6"
     tools:context=".SignUpActivity">
 
     <ImageView
@@ -55,14 +56,15 @@
         app:layout_constraintStart_toStartOf="@+id/reg_password_read"
         app:layout_constraintTop_toBottomOf="@+id/reg_password_read" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/register_button_finish"
-        android:layout_width="230dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
         android:text="회원가입"
         android:textSize="18dp"
         android:textStyle="bold"
+        android:background="@drawable/button_design"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

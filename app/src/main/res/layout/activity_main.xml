@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFE6E6"
     tools:context=".SignInActivity">
 
     <ImageView
@@ -13,7 +14,6 @@
         android:src="@drawable/image"
         app:layout_constraintBottom_toTopOf="@+id/id_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
@@ -43,31 +43,31 @@
         app:layout_constraintStart_toStartOf="@+id/id_read"
         app:layout_constraintTop_toBottomOf="@+id/id_read" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signin_button"
-        android:layout_width="230dp"
-        android:layout_height="51dp"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
         android:layout_marginTop="40dp"
         android:text="로그인"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/register_button"
+        android:background="@drawable/button_design"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_read" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/register_button"
-        android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
         android:layout_marginTop="20dp"
+        android:background="@drawable/button_design"
         android:text="회원가입"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/signin_button"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/signin_button"
         app:layout_constraintTop_toBottomOf="@+id/signin_button" />
 
