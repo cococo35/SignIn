@@ -3,6 +3,7 @@ package com.android.signin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 
 class HomeActivity : AppCompatActivity() {
@@ -21,7 +22,18 @@ class HomeActivity : AppCompatActivity() {
         home_button.setOnClickListener {
             finish()
         }
+
+        val homeImage = findViewById<ImageView>(R.id.home_image)
+        val imageRes = intArrayOf(
+            R.drawable.man1,
+            R.drawable.man2,
+            R.drawable.man3,
+            R.drawable.man4,
+            R.drawable.homeimage
+        )
+
+        val random = imageRes.indices.random()
+        val randomRes = imageRes[random]
+        homeImage.setImageResource(randomRes)
     }
 }
-
-//내일 할 일: import android.widget.*** 활용해서 homeActivity 디자인하기

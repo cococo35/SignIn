@@ -6,12 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.result.ActivityResultRegistry
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
-import org.w3c.dom.Text
 
 
 class SignInActivity : AppCompatActivity() {
@@ -64,4 +60,3 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 }
-//a
