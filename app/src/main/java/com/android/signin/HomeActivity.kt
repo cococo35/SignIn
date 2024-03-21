@@ -14,7 +14,7 @@ class HomeActivity : AppCompatActivity() {
         val passWord = intent.getStringExtra("passWord")
 
         val tv_home_id = findViewById<TextView>(R.id.home_id)
-        tv_home_id.setText(id)
+        tv_home_id.setText("${id} 님 환영합니다!")
 
         val home_button = findViewById<Button>(R.id.home_button_finish)
 
