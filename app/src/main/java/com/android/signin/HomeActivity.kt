@@ -29,7 +29,7 @@ class HomeActivity : AppCompatActivity() {
             R.drawable.man2,
             R.drawable.man3,
             R.drawable.man4,
-            R.drawable.homeimage
+            R.drawable.man5
         )
 
         val random = imageRes.indices.random()

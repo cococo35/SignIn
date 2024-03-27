@@ -19,6 +19,8 @@ class SignInActivity : AppCompatActivity() {
         val password_text = findViewById<EditText>(R.id.password_read)
         val signin_button = findViewById<Button>(R.id.signin_button)
         val register_button = findViewById<Button>(R.id.register_button)
+        val id_first = id_text.toString()[0]
+        val specialChars = """[!@#$%^&*()]""".toRegex()
 
         signin_button.setOnClickListener {
             if(id_text.text.isEmpty()) {
@@ -26,8 +28,23 @@ class SignInActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            if(id_text.text.toString().length < 8) {
+                Toast.makeText(this, "아이디는 8자 이상이여야 합니다", Toast.LENGTH_LONG).show()
+                return@setOnClickListener
+            }
+
             if(password_text.text.isEmpty()) {
                 Toast.makeText(this, "비밀번호를 확인해주세요",Toast.LENGTH_LONG).show()
+                return@setOnClickListener
+            }
+
+            if(password_text.text.toString().length < 8) {
+                Toast.makeText(this, "비밀번호는 8자 이상이여야 합니다", Toast.LENGTH_LONG).show()
+                return@setOnClickListener
+            }
+
+            if(!specialChars.matches(id_first.toString())) {
+                Toast.makeText(this, "아이디는 특수문자로 시작할 수 없습니다", Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
