@@ -19,8 +19,6 @@ class SignInActivity : AppCompatActivity() {
         val password_text = findViewById<EditText>(R.id.password_read)
         val signin_button = findViewById<Button>(R.id.signin_button)
         val register_button = findViewById<Button>(R.id.register_button)
-        val id_first = id_text.toString()[0]
-        val specialChars = """[!@#$%^&*()]""".toRegex()
 
         signin_button.setOnClickListener {
             if(id_text.text.isEmpty()) {
@@ -43,19 +41,12 @@ class SignInActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            if(!specialChars.matches(id_first.toString())) {
-                Toast.makeText(this, "아이디는 특수문자로 시작할 수 없습니다", Toast.LENGTH_LONG).show()
-                return@setOnClickListener
-            }
-
             Toast.makeText(this, "로그인 성공",Toast.LENGTH_LONG).show()
 
             val id:String = id_text.text.toString()
-            val passWord:String = password_text.text.toString()
 
             val intent = Intent(this, HomeActivity::class.java)
             intent.putExtra("id", id)
-            intent.putExtra("passWord", passWord)
             startActivity(intent)
         }
 
