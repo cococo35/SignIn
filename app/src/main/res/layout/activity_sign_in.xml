@@ -14,6 +14,7 @@
         android:src="@drawable/image"
         app:layout_constraintBottom_toTopOf="@+id/id_text"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
@@ -79,6 +80,8 @@
         android:ems="10"
         android:hint="아이디를 입력하세요."
         android:minHeight="48dp"
+        android:maxLength="20"
+        android:digits="0123456789zxcvbnmasdfghjklqwertyuiop!@#$%^&amp;*()"
         app:layout_constraintBottom_toTopOf="@+id/password_text"
         app:layout_constraintStart_toStartOf="@+id/id_text"
         app:layout_constraintTop_toBottomOf="@+id/id_text" />
@@ -91,6 +94,8 @@
         android:ems="10"
         android:hint="비밀번호를 입력하세요"
         android:inputType="textPassword"
+        android:maxLength="20"
+        android:digits="0123456789zxcvbnmasdfghjklqwertyuiop!@#$%^&amp;*()"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/signin_button"
         app:layout_constraintStart_toStartOf="@+id/password_text"

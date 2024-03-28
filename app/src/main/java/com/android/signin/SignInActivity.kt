@@ -26,19 +26,27 @@ class SignInActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            if(id_text.text.toString().length < 8) {
+                Toast.makeText(this, "아이디는 8자 이상이여야 합니다", Toast.LENGTH_LONG).show()
+                return@setOnClickListener
+            }
+
             if(password_text.text.isEmpty()) {
                 Toast.makeText(this, "비밀번호를 확인해주세요",Toast.LENGTH_LONG).show()
+                return@setOnClickListener
+            }
+
+            if(password_text.text.toString().length < 8) {
+                Toast.makeText(this, "비밀번호는 8자 이상이여야 합니다", Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
             Toast.makeText(this, "로그인 성공",Toast.LENGTH_LONG).show()
 
             val id:String = id_text.text.toString()
-            val passWord:String = password_text.text.toString()
 
             val intent = Intent(this, HomeActivity::class.java)
             intent.putExtra("id", id)
-            intent.putExtra("passWord", passWord)
             startActivity(intent)
         }
 

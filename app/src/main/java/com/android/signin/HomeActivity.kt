@@ -12,7 +12,6 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         val id = intent.getStringExtra("id")
-        val passWord = intent.getStringExtra("passWord")
 
         val tv_home_id = findViewById<TextView>(R.id.home_id)
         tv_home_id.setText("${id} 님 환영합니다!")
@@ -29,7 +28,7 @@ class HomeActivity : AppCompatActivity() {
             R.drawable.man2,
             R.drawable.man3,
             R.drawable.man4,
-            R.drawable.homeimage
+            R.drawable.man5
         )
 
         val random = imageRes.indices.random()
