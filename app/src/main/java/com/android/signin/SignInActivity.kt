@@ -22,26 +22,26 @@ class SignInActivity : AppCompatActivity() {
 
         signin_button.setOnClickListener {
             if(id_text.text.isEmpty()) {
-                Toast.makeText(this, "아이디를 확인해주세요",Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.toast_id_error),Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
             if(id_text.text.toString().length < 8) {
-                Toast.makeText(this, "아이디는 8자 이상이여야 합니다", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.toast_id_error2), Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
             if(password_text.text.isEmpty()) {
-                Toast.makeText(this, "비밀번호를 확인해주세요",Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.toast_password_error),Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
             if(password_text.text.toString().length < 8) {
-                Toast.makeText(this, "비밀번호는 8자 이상이여야 합니다", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.toast_password_error2), Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
-            Toast.makeText(this, "로그인 성공",Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.toast_login_success),Toast.LENGTH_LONG).show()
 
             val id:String = id_text.text.toString()
 

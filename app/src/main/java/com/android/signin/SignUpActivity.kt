@@ -18,11 +18,11 @@ class SignUpActivity : AppCompatActivity() {
 
         reg_button_finish.setOnClickListener {
             if(reg_name_text.text.isEmpty() || reg_id_text.text.isEmpty() || reg_password_text.text.isEmpty()) {
-                Toast.makeText(this, "입력되지 않은 정보가 있습니다", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.toast_register_error), Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
-            Toast.makeText(this, "회원가입 성공", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.toast_register_success), Toast.LENGTH_LONG).show()
 
             val reg_id:String = reg_id_text.text.toString()
             val reg_password:String = reg_password_text.text.toString()
