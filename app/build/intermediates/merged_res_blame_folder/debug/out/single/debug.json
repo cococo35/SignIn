@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_register.png.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\register.png"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_man4.png.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\man4.png"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.android.signin.app-merged_res-31:/drawable_man5.png.flat",
+        "source": "com.android.signin.app-main-33:/drawable/man5.png"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_man2.png.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\man2.png"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_image.png.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\image.png"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_button_design.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\button_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_homeimage.png.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\homeimage.png"
+    },
+    {
+        "merged": "com.android.signin.app-merged_res-31:/layout_activity_home.xml.flat",
+        "source": "com.android.signin.app-main-33:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_man3.png.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\man3.png"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\drawable_man1.png.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\drawable\\man1.png"
+    },
+    {
+        "merged": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\taeju\\.gradle\\daemon\\8.2\\com.android.signin.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.android.signin.app-merged_res-31:/layout_activity_sign_in.xml.flat",
+        "source": "com.android.signin.app-main-33:/layout/activity_sign_in.xml"
+    }
+]
